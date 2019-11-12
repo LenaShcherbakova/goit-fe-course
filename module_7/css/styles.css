@@ -149,6 +149,7 @@ html {
   font-family: "Roboto Slab";
   font-size: 14px;
   color: rgb(119, 119, 119);
+  line-height: 17px;
 }
 .features {
   margin-bottom: 102px;
@@ -297,9 +298,9 @@ textarea:invalid {
 /* BANNER BACKGROUND IMAGE */
 .banner {
   min-height: 676px;
-  background-image: url(../img/Map\ Image.png);
   background-color: black;
+  background-image: url(../img/map-img.png);
   background-repeat: no-repeat;
-  background-position-x: 200%;
-  background-size: contain;
+  background-position-x: 72%;
+  background-position-y: 106%;
 }
