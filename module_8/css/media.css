@@ -1,0 +1,158 @@
+@media (max-width: 599px) {
+  .banner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 320px;
+  }
+  .signup-form {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 120px;
+  }
+  .site-logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 26px;
+  }
+  .banner-info {
+    padding-bottom: 138px;
+  }
+  .main-title {
+    font-size: 30px;
+    line-height: 36px;
+   
+  }
+  .info-title {
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .section-title {
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+  }
+  .team-list {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  footer {
+    margin-bottom: 58px;
+  }
+  .team-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .memberone {
+    order: 0;
+  }
+  .membertwo {
+    order: 1;
+  }
+  .memberthree {
+    order: 0;
+  }
+  .memberfour {
+    order: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1169px) {
+  .container {
+    width: 660px;
+  }
+  .page-nav {
+    display: flex;
+    min-height: 65px;
+    padding-top: 50px;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .site-logo {
+    display: flex;
+  }
+  .signup-form {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+  }
+  .banner {
+    background-size: cover;
+  }
+
+  .main-title {
+    font-size: 52px;
+    line-height: 62px;
+    margin-top: 160px;
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-bottom: 40px;
+  }
+  .info-title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 34px;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 84px;
+    margin-right: 84px;
+    justify-content: space-between;
+  }
+  .button-footer {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1170px) {
+  .container {
+    width: 942px;
+    margin: 0 auto;
+  }
+  .banner {
+    background-size: contain;
+  }
+  .page-header {
+    margin-bottom: 140px;
+  }
+  .page-nav {
+    display: flex;
+
+    padding-top: 46px;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row-reverse;
+  }
+  .signup-form {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+  }
+  .main-title {
+    margin-left: 280px;
+    margin-right: 358px;
+    padding-left: 490px;
+    padding-right: 420px;
+    margin-top: 0;
+  }
+
+  .team-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .team-list-item {
+    width: 220px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .button-footer {
+    margin-bottom: 73px;
+  }
+}
