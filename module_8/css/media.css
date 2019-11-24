@@ -1,6 +1,6 @@
-@media (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .container {
-    width: 320px;
+    max-width: 320px;
   }
 
   .banner {
@@ -38,6 +38,8 @@
   .section-title {
     margin-top: 65px;
     margin-bottom: 20px;
+    padding-left:29px;
+    padding-right: 29px;
   }
   .team-list {
     padding-left: 50px;
@@ -64,31 +66,44 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1169px) {
+@media (min-width: 768px)  and (max-width: 1439px)   {
   .container {
-    width: 660px;
+    width: 492px;
   }
   .banner {
     background-image: url(../img/banner-object.jpg);
     background-size: cover;
+  }
+  .page-header {
+       width: 660px; 
+       margin: 0 auto;
+      /* margin-left: 54px;
+      margin-right: 54px;
+      */
   }
   .page-nav {
     display: flex;
     min-height: 65px;
     padding-top: 50px;
     align-items: baseline;
-    justify-content: space-between;
+      justify-content: space-between;  
     flex-direction: row-reverse;
+    
+   
+    text-align: center;
   }
   .site-logo {
     display: flex;
     font-size: 20px;
     line-height: 24px;
+    justify-content: flex-start;
   }
   .signup-form {
     display: flex;
     justify-content: flex-end;
-    justify-content: space-between;
+    justify-content: space-between; 
+   /*  margin-right: 0; */
+    
   }
   .banner {
     background-size: cover;
@@ -96,10 +111,10 @@
 
   .main-title {
     font-size: 52px;
-    line-height: 62px;
+     line-height: 62px; 
     margin-top: 160px;
-    margin-left: 84px;
-    margin-right: 84px;
+    /* margin-left: 84px;
+    margin-right: 84px; */
     margin-bottom: 40px;
   }
   .info-title {
@@ -117,8 +132,8 @@
   .team-list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 84px;
-    margin-right: 84px;
+    /* margin-left: 84px;
+    margin-right: 84px; */
     justify-content: space-between;
     margin-bottom: 40px;
   }
@@ -132,9 +147,9 @@
   }
 }
 
-@media (min-width: 1170px) {
+@media (min-width: 1440px) {
   .container {
-    width: 942px;
+    max-width: 942px;
   }
   .banner {
     background-size: contain;
@@ -142,7 +157,9 @@
    
   }
   .page-header {
+    max-width: 940px; 
     margin-bottom: 140px;
+    margin: 0 auto;
   }
   .page-nav {
     display: flex;
@@ -150,13 +167,15 @@
     padding-top: 46px;
     align-items: baseline;
     justify-content: space-between;
-    flex-direction: row-reverse;
-
-    padding-top: 46px;
-    align-items: flex-end;
-    justify-content: space-between;
+    flex-direction: row-reverse;  
     align-items: baseline;
-    flex-direction: row-reverse;
+    
+  }
+  .site-logo {
+    display: flex;
+    font-size: 20px;
+    line-height: 24px;
+    justify-content: flex-start;
   }
   .signup-form {
     display: flex;
@@ -164,11 +183,12 @@
     justify-content: space-between;
   }
   .main-title {
-    margin-left: 280px;
-    margin-right: 358px;
-    padding-left: 490px;
-    padding-right: 420px;
-    margin-top: 0;
+    /* margin-left: 280px;
+    margin-right: 358px; */
+    margin: 0 auto;
+    padding-left: 210px;
+    padding-right: 210px;
+    margin-top: 140px;
     font-size: 52px;
     line-height: 62px;
   }
