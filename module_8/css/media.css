@@ -152,7 +152,7 @@
     max-width: 942px;
   }
   .banner {
-    background-size: contain;
+    background-size: cover;
     background-image: url(../img/banner-object.jpg); 
    
   }
@@ -183,8 +183,7 @@
     justify-content: space-between;
   }
   .main-title {
-    /* margin-left: 280px;
-    margin-right: 358px; */
+   
     margin: 0 auto;
     padding-left: 210px;
     padding-right: 210px;
