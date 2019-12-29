@@ -1,0 +1,43 @@
+.banner {
+  background-image: url(../images/banner-Layer.jpg);
+  @include bg-image;
+  padding-bottom: 230px;
+}
+
+.banner-title {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 72px;
+  color: white;
+  @extend %text-center;
+  margin-top: 170px;
+}
+
+.banner-info {
+  font-family: $secondary-font-stack;
+  font-size: 150px;
+  color: white;
+  width: 820px;
+  line-height: 140px;
+  @extend %text-center;
+  text-transform: uppercase;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin: 0 auto;
+  margin-bottom: 126px;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $secondary-font-stack;
+  @extend %link;
+  @extend %button;
+  border: 3px solid white;
+  width: 160px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  line-height: 1.2;
+}
