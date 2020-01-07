@@ -1,0 +1,11 @@
+.page-footer__container {
+  @include flex-set;
+  min-height: 62px;
+  color: black;
+  border-top: 1px solid $button-border-color;
+}
+
+.page-footer__container a {
+  @extend %link;
+  color: $hover-main-color;
+}

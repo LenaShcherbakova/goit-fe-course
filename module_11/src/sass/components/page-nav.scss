@@ -1,0 +1,10 @@
+.page-nav {
+  align-items: flex-end;
+  @extend %link;
+  @include flex-set;
+
+}
+
+.page-nav__site-navigation {
+  width: 620px;
+}

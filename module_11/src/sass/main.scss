@@ -1,0 +1,24 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+@import 'helpers/variables.scss';
+@import 'helpers/placeholders.scss';
+@import 'helpers/mixins.scss';
+@import 'normalize.scss';
+@import 'base.scss';
+
+/* Добавить extras.scss после mixins */
+
+/* Components */
+
+@import 'components/container.scss';
+@import 'components/site-logo.scss';
+@import 'components/page-nav.scss';
+@import 'components/site-navigation.scss';
+@import 'components/banner.scss';
+@import 'components/section.scss';
+@import 'components/features.scss';
+@import 'components/team.scss';
+@import 'components/team-card-overlay.scss';
+@import 'components/page-footer.scss';
+@import 'components/subscribe-button.scss';

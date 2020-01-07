@@ -1,0 +1,10 @@
+.site-logo {
+  @extend %link;
+  display: flex;
+  font-family: $secondary-font-stack;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+ 
+}

@@ -1,0 +1,95 @@
+.card {
+  position: relative;
+  width: 380px;
+  @include bg-image;
+  transition: transform 200ms linear;
+
+  &:hover .overlay__card {
+    background: linear-gradient(
+      45deg,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    );
+    transform: scale(1.3);
+    transform: translate(-10px, -10px);
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    box-shadow: $button-background-color 10px 10px;
+  }
+}
+
+.overlay__card {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  background-repeat: no-repeat;
+}
+
+.overlay__card-list {
+  @extend %list;
+
+  & li {
+    position: absolute;
+  }
+
+  & a {
+    position: absolute;
+    width: 55px;
+    height: 58px;
+    background-color: $card-overlay-color;
+    @include bg-image;
+    top: 207px;
+    z-index: -1;
+
+    &:hover {
+ 
+      background-color: $hover-main-color;
+    
+      transition-duration: 200ms;
+    
+      transition-timing-function: linear;
+    }
+  }
+}
+
+.overlay__card-list .overlay-icon {
+  @extend %list;
+  display: inline-block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @extend %text-center;
+  background-color: $card-overlay-color;
+  fill: $hover-main-color;
+  @include bg-image;
+  background-size: contain;
+}
+
+.icon-facebook {
+  left: 68px;
+}
+
+.icon-twitter {
+  left: 124px;
+}
+
+.icon-pinterest {
+  left: 180px;
+}
+
+.icon-instagram {
+  left: 237px;
+}
+
+.icon-effect:hover .overlay-icon {
+  background-color: $hover-main-color;
+  fill: $button-border-color;
+
+  transition-duration: 200ms;
+
+  transition-timing-function: linear;
+  z-index: 1;
+}
